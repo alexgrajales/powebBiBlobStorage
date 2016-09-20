@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "PowerBiBlob", "PowerBiBlob\PowerBiBlob.ccproj", "{01C6FC2B-2B73-4DED-B19A-0603E666F0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdsWeb", "AdsWeb\AdsWeb.csproj", "{0E9316B7-9DB6-464C-A263-2443A8B45C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdWorker", "AdWorker\AdWorker.csproj", "{11E7646E-EAE3-4EBC-9C06-D22F70DB1216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C6FC2B-2B73-4DED-B19A-0603E666F0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C6FC2B-2B73-4DED-B19A-0603E666F0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C6FC2B-2B73-4DED-B19A-0603E666F0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C6FC2B-2B73-4DED-B19A-0603E666F0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9316B7-9DB6-464C-A263-2443A8B45C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9316B7-9DB6-464C-A263-2443A8B45C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9316B7-9DB6-464C-A263-2443A8B45C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9316B7-9DB6-464C-A263-2443A8B45C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E7646E-EAE3-4EBC-9C06-D22F70DB1216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E7646E-EAE3-4EBC-9C06-D22F70DB1216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E7646E-EAE3-4EBC-9C06-D22F70DB1216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E7646E-EAE3-4EBC-9C06-D22F70DB1216}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
