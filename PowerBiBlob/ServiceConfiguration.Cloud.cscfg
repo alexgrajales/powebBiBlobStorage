@@ -3,13 +3,19 @@
   <Role name="AdsWeb">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cuentaalmacenamientoagv;AccountKey=7PHBSXMQK5KAjKnZ3BV/y7zT4Bbg4qlMdVB/xmIzdOcChfKP8FZcjexnh9MuCqLKMQGD9NEDQMWlWTeDDbRtnQ==" />
+      <Setting name="ContosoAdsDbConnectionString" value="Server=tcp:basededatosagv.database.windows.net,1433;Initial Catalog=Blob;Persist Security Info=False;User ID=alexgv12;Password=4711134Casa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="74a3a5af-b87e-430d-a7e7-273e32ff7a4c" />
     </ConfigurationSettings>
   </Role>
   <Role name="AdWorker">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cuentaalmacenamientoagv;AccountKey=7PHBSXMQK5KAjKnZ3BV/y7zT4Bbg4qlMdVB/xmIzdOcChfKP8FZcjexnh9MuCqLKMQGD9NEDQMWlWTeDDbRtnQ==" />
+      <Setting name="ContosoAdsDbConnectionString" value="Server=tcp:basededatosagv.database.windows.net,1433;Initial Catalog=Blob;Persist Security Info=False;User ID=alexgv12;Password=4711134Casa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="74a3a5af-b87e-430d-a7e7-273e32ff7a4c" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
