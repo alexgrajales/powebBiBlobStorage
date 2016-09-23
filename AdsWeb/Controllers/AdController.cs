@@ -48,6 +48,7 @@ namespace ContosoAdsWeb.Controllers
 
             // Get a reference to the queue.
             imagesQueue = queueClient.GetQueueReference("images");
+            imagesQueue.CreateIfNotExists();
         }
 
         // GET: Ad
